@@ -1,1 +1,1 @@
-# JavaGently
+# JavaGently v2
