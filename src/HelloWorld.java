@@ -5,6 +5,7 @@ class HelloWorld{
     }
 
     private static void print(String s){
+        //nice comment
         System.out.println(s);
     }
 }
