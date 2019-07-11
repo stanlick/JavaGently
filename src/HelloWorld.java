@@ -1,7 +1,10 @@
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
 class HelloWorld{
 
     public static void main(String[] args) {
-        print("Hello World");
+        IntStream.range(1,5).forEach(s -> print("Hello World"));
     }
 
     private static void print(String s){
