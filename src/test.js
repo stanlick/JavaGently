@@ -18,4 +18,4 @@ const arr2=[v1,v2,   ...rest]=arr
 show( arr2 );
 show( rest );
 
-
+// added comment
