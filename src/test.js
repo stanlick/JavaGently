@@ -19,3 +19,5 @@ show( arr2 );
 show( rest );
 
 // added comment
+
+//It is now Wednesday
