@@ -6,5 +6,9 @@ function toCels(fahr){
     return ((fahr - 32) *5/9).toFixed(2);
 }
 
-console.log("80F is", toCels(80), "C");     //26.67 °C
-console.log("26.67 is", toFahr(26.67), "F");   //80 °F
+show("80F is", toCels(80), "C");     //26.67 °C
+show("26.67C is", toFahr(26.67), "F");   //80 °F
+
+function show(...s){
+    console.log(s);
+}
