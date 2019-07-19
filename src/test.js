@@ -9,6 +9,8 @@
 
 function show(...params) {
     console.log(params);
+    // this doesn't seem to work in node
+    //alert(params);
 }
 
 

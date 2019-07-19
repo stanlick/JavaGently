@@ -1,3 +1,6 @@
+//This should be the new thermometer.js!
+
+
 function toFahr(celsius){
     return Math.round(celsius*9/5+32).toFixed(2);
 }
