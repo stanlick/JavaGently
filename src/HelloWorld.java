@@ -13,4 +13,5 @@ class HelloWorld{
     }
 
     public void foo(){}
+    public void anotherMethod(){}
 }
