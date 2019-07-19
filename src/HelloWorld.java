@@ -11,4 +11,6 @@ class HelloWorld{
         //nice comment
         System.out.println(s);
     }
+
+    public void foo(){}
 }
