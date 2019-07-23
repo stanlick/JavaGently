@@ -1,6 +1,9 @@
 package com.example.demo;
 
 import static org.junit.Assert.assertThat;
+
+import java.time.LocalDate;
+
 import static org.hamcrest.CoreMatchers.*;
 
 import javax.inject.Inject;
@@ -27,4 +30,14 @@ public class DemoApplicationTests {
 		assertThat(calculator, notNullValue());
 	}
 
+	@Test
+	public void getAge() {
+		System.out.println(Calculator.getAge(LocalDate.of(1962, 06, 15)));
+		System.out.println(Calculator.getAge(LocalDate.of(1980, 03, 15)));
+	}
+
+	@Test
+	public void geDistanceBetween() {
+		System.out.println(Calculator.getDistance(LocalDate.of(1962, 06, 15),LocalDate.of(1980, 03, 15)));
+	}
 }
