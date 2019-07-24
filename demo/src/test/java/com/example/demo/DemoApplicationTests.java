@@ -41,8 +41,4 @@ public class DemoApplicationTests {
 		System.out.println(Calculator.getDistance(LocalDate.of(1962, 06, 15),LocalDate.of(1980, 03, 15)));
 	}
 
-	@Test
-	public void java12Switch() {
-		
-	}
 }

@@ -1,7 +1,5 @@
 package com.example.demo;
 
-
-
 import static org.assertj.core.api.Java6Assertions.assertThat;
 
 import java.util.List;
@@ -26,6 +24,18 @@ public class FlowTests {
 
 		// then
 		// await().atMost(1000, TimeUnit.MILLISECONDS)
-		// 		.until(() -> assertThat(subscriber.consumedElements).containsExactlyElementsOf(items));
+		// .until(() ->
+		// assertThat(subscriber.consumedElements).containsExactlyElementsOf(items));
+	}
+
+	@Test
+	public void java12Switch() {
+		var name = "Scott";
+		switch (name) {
+		case "Scott" -> System.out.println("Name was Scott");
+		case "Tyler" -> System.out.println("Name was Tyler");
+		case "Jennifer" -> System.out.println("Name was Jennifer");
+		default -> System.out.println("Bad name.");
+		}
 	}
 }
