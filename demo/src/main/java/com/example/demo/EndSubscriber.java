@@ -1,4 +1,4 @@
-package com.example.demo.flows;
+package com.example.demo;
 
 import java.util.LinkedList;
 import java.util.List;
