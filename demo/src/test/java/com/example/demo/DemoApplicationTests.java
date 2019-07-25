@@ -17,28 +17,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class DemoApplicationTests {
 
-	@Inject
-	private Calculator calculator;
 
 	@Test
 	public void contextLoads() {
 		System.out.println("Test was executed");
 	}
 
-	@Test
-	public void getCalclulator() {
-		assertThat(calculator, notNullValue());
-	}
-
-	@Test
-	public void getAge() {
-		System.out.println(Calculator.getAge(LocalDate.of(1962, 06, 15)));
-		System.out.println(Calculator.getAge(LocalDate.of(1980, 03, 15)));
-	}
-
-	@Test
-	public void getDistanceBetween() {
-		System.out.println(Calculator.getDistance(LocalDate.of(1962, 06, 15),LocalDate.of(1980, 03, 15)));
-	}
 
 }
